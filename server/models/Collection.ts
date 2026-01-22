@@ -30,7 +30,7 @@ const CollectionSchema = new Schema<ICollection>({
   bannerUrl: { type: String },
   bannerPublicId: { type: String },
   royalty: { type: Number, default: 0, min: 0, max: 10 },
-  blockchain: { type: String, default: 'Ethereum' },
+  blockchain: { type: String, default: 'Blockeum' },
   contractAddress: { type: String },
   owner:{ type: String },
   nftCount: { type: Number, default: 0 },

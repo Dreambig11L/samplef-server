@@ -930,7 +930,7 @@ const listedVolume = await NFT.aggregate([
         description,
         category,
         royalty: Number(royalty) || 0,
-        blockchain: blockchain || 'Ethereum',
+        blockchain: blockchain || 'Blockeum',
         imageUrl,
         imagePublicId,
         bannerUrl,

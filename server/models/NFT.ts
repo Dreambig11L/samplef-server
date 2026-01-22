@@ -33,7 +33,7 @@ const NFTSchema = new Schema<INFT>({
   imagePublicId: { type: String },
   collectionId: { type: Schema.Types.ObjectId, ref: 'Collection' },
   tokenId: { type: String },
-  blockchain: { type: String, default: 'Ethereum' },
+  blockchain: { type: String, default: 'Blockeum' },
   price: { type: Number },
   currency: { type: String, default: 'WETH' },
   status: { type: String, enum: ['owned', 'listed', 'sold', 'auction'], default: 'owned' },
